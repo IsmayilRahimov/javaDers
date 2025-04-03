@@ -15,9 +15,10 @@ public class ListArray {
         System.out.println(fruits.size());
         System.out.println(fruits.getFirst());
         System.out.println(fruits.getLast());
-        System.out.println(fruits.remove(2));
+        fruits.remove(2);
         System.out.println(fruits.get(0));
         System.out.println(fruits.get(1));
+        System.out.println(fruits);
 
     }
 }
